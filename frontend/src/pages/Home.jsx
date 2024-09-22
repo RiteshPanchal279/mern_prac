@@ -22,7 +22,7 @@ const Home=()=>{
 
    const fetchproducts =async ()=>{
       try {
-         const url="https://loginprac-7js1inhmg-ritesh-panchals-projects.vercel.app//product";
+         const url="https://loginprac-7js1inhmg-ritesh-panchals-projects.vercel.app/product";
          const headers={
             headers:{
                'Authorization':localStorage.getItem('token')
