@@ -56,9 +56,8 @@ const Home=()=>{
             ))
          }
       </div>
-      <h1>Hello this is practice of login & logout</h1>
       <button onClick={handleLogout}>Logout</button>
-
+<p> <b>note:-</b>This is practice of login and logout flow</p>
       <ToastContainer/>
    </>
 }
