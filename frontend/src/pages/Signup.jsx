@@ -28,7 +28,7 @@ const Signup = () => {
       }
 
       try {
-         const url="http://localhost:8080/auth/signup";
+         const url="https://loginpracba.vercel.app/auth/signup";
          const responce = await fetch(url,{
             method:"POST",
             headers:{

@@ -22,7 +22,8 @@ const Home=()=>{
 
    const fetchproducts =async ()=>{
       try {
-         const url="http://localhost:8080/product";
+         // const url="http://localhost:8080/product";
+         const url="https://loginpracba.vercel.app/product";
          const headers={
             headers:{
                'Authorization':localStorage.getItem('token')
@@ -45,7 +46,7 @@ const Home=()=>{
 
    return <>
       <h1>Welcome {loggedInUser}</h1>
-      <button onClick={handleLogout}>Logout</button>
+      
       <div>
          {
             product&& product?.map((item,index)=>(
@@ -55,6 +56,9 @@ const Home=()=>{
             ))
          }
       </div>
+      <h1>Hello this is practice of login & logout</h1>
+      <button onClick={handleLogout}>Logout</button>
+
       <ToastContainer/>
    </>
 }
