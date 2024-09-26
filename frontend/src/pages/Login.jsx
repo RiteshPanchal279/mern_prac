@@ -26,7 +26,7 @@ const Login = () => {
       return handleError("Email and Password is required");
     }
     try {
-      const url = "https://loginprac-7js1inhmg-ritesh-panchals-projects.vercel.app/auth/login";
+      const url = "https://loginpracba.vercel.app/auth/login";
       const responce = await fetch(url, {
         method: "POST",
         headers: {
