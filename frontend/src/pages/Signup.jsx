@@ -28,7 +28,7 @@ const Signup = () => {
       }
 
       try {
-         const url="https://loginprac-7js1inhmg-ritesh-panchals-projects.vercel.app/auth/signup";
+         const url="https://loginpracba.vercel.app/auth/signup";
          const responce = await fetch(url,{
             method:"POST",
             headers:{
